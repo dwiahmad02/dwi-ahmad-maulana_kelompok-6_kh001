@@ -167,7 +167,7 @@ class _HomePageState extends State<HomePage> {
                 onPressed: () {
                   debugPrint('Tombol berhasil ditekan!');
                 },
-                url: 'https://github.com/dwiahmad02',
+                url: 'https://github.com/dwiahmad02/dwi-ahmad-maulana_kelompok-6_kh001',
               ),
               const SizedBox(height: 40),
 
