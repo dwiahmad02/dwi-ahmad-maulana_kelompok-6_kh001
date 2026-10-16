@@ -25,7 +25,10 @@ class DefaultFirebaseOptions {
       case TargetPlatform.iOS:
         return ios;
       case TargetPlatform.macOS:
-        return macos;
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for macos - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
       case TargetPlatform.windows:
         return windows;
       case TargetPlatform.linux:
@@ -41,48 +44,38 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCvIScHn35u7ha13YsyxQzZVzSOGpcb0QU',
-    appId: '1:974971869578:web:430991de560bc852651073',
-    messagingSenderId: '974971869578',
-    projectId: 'praktikum-pemmob-3c2e6',
-    authDomain: 'praktikum-pemmob-3c2e6.firebaseapp.com',
-    storageBucket: 'praktikum-pemmob-3c2e6.firebasestorage.app',
-    measurementId: 'G-8Q5ZWLRRZW',
+    apiKey: 'AIzaSyDKcErf0dfA6Cw7RdI5bL3NS5THW8j_4ww',
+    appId: '1:450655694738:web:1c774a371f7b76a8cc9b4b',
+    messagingSenderId: '450655694738',
+    projectId: 'praktikumpemmob',
+    authDomain: 'praktikumpemmob.firebaseapp.com',
+    storageBucket: 'praktikumpemmob.firebasestorage.app',
+    measurementId: 'G-VEEEMY33FX',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDdSJW7oRETBXGgtdTQcn1iqnjX769IZtc',
-    appId: '1:974971869578:android:e7ddb5519fa5f194651073',
-    messagingSenderId: '974971869578',
-    projectId: 'praktikum-pemmob-3c2e6',
-    storageBucket: 'praktikum-pemmob-3c2e6.firebasestorage.app',
+    apiKey: 'AIzaSyB1QK_3HJSr0EaM8dbi-0on7S9PipOnAz4',
+    appId: '1:450655694738:android:cecf31c78aab8deecc9b4b',
+    messagingSenderId: '450655694738',
+    projectId: 'praktikumpemmob',
+    storageBucket: 'praktikumpemmob.firebasestorage.app',
   );
-
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBJD3hXRyu7Y9TqPuSvpdZmUAnhk8PVo4k',
-    appId: '1:974971869578:ios:4ef24596ebbb66c0651073',
-    messagingSenderId: '974971869578',
-    projectId: 'praktikum-pemmob-3c2e6',
-    storageBucket: 'praktikum-pemmob-3c2e6.firebasestorage.app',
-    iosBundleId: 'com.example.muhammadRiyanHardionoKelompok6Kh001',
-  );
-
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyBJD3hXRyu7Y9TqPuSvpdZmUAnhk8PVo4k',
-    appId: '1:974971869578:ios:4ef24596ebbb66c0651073',
-    messagingSenderId: '974971869578',
-    projectId: 'praktikum-pemmob-3c2e6',
-    storageBucket: 'praktikum-pemmob-3c2e6.firebasestorage.app',
-    iosBundleId: 'com.example.muhammadRiyanHardionoKelompok6Kh001',
+    apiKey: 'AIzaSyDobeWs4KngIyEyfVez0eLCkK4Ei8aQrRA',
+    appId: '1:450655694738:ios:0a9105ad57328640cc9b4b',
+    messagingSenderId: '450655694738',
+    projectId: 'praktikumpemmob',
+    storageBucket: 'praktikumpemmob.firebasestorage.app',
+    iosBundleId: 'com.example.horasJustitia',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyCvIScHn35u7ha13YsyxQzZVzSOGpcb0QU',
-    appId: '1:974971869578:web:217ef09ebb5b193c651073',
-    messagingSenderId: '974971869578',
-    projectId: 'praktikum-pemmob-3c2e6',
-    authDomain: 'praktikum-pemmob-3c2e6.firebaseapp.com',
-    storageBucket: 'praktikum-pemmob-3c2e6.firebasestorage.app',
-    measurementId: 'G-PDNKGNRBES',
+    apiKey: 'AIzaSyDKcErf0dfA6Cw7RdI5bL3NS5THW8j_4ww',
+    appId: '1:450655694738:web:a0303275f9190d54cc9b4b',
+    messagingSenderId: '450655694738',
+    projectId: 'praktikumpemmob',
+    authDomain: 'praktikumpemmob.firebaseapp.com',
+    storageBucket: 'praktikumpemmob.firebasestorage.app',
+    measurementId: 'G-Y1N6M429TG',
   );
 }
