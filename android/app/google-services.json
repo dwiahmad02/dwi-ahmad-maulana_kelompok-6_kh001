@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "450655694738",
+    "project_id": "praktikumpemmob",
+    "storage_bucket": "praktikumpemmob.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450655694738:android:cecf31c78aab8deecc9b4b",
+        "android_client_info": {
+          "package_name": "com.example.horas_justitia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1QK_3HJSr0EaM8dbi-0on7S9PipOnAz4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
