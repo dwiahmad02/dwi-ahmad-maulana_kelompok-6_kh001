@@ -1,4 +1,4 @@
-# horas_justitia
+# praktikum
 
 A new Flutter project.
 
