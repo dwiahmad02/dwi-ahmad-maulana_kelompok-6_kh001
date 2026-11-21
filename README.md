@@ -11,10 +11,6 @@
 
 ---
 
-## 📖 Tentang Proyek
-
-**Horas Justitia** adalah aplikasi lintas platform yang dibangun dengan Flutter sebagai bagian dari Praktikum Pemrograman Mobile. Aplikasi ini menampilkan dan mengelola data admin serta pengguna Horas Advokat, terhubung ke Firebase dan layanan API, dan mendukung banyak bahasa.
-
 ## ✨ Fitur
 
 - 📋 Daftar admin dengan tampilan tab
