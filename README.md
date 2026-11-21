@@ -1,129 +1,134 @@
-# Horas Justitia
+<div align="center">
 
-Aplikasi mobile berbasis **Flutter (Dart)** untuk Horas Advokat, dikembangkan sebagai proyek Praktikum Pemrograman Mobile.
+# ⚖️ Cuma Project Praktikum  + timpaan tugas
 
-> Ganti bagian bertanda `TODO` dengan informasi sebenarnya dari proyekmu.
+![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black)
+![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS%20%7C%20Web%20%7C%20Windows%20%7C%20Linux-lightgrey)
 
-## Deskripsi
+</div>
 
-Horas Justitia adalah aplikasi yang membantu pengelolaan data pada layanan Horas Advokat, termasuk pengelolaan data admin dan pengguna, serta tampilan detail data. Aplikasi terhubung ke Firebase dan layanan API.
+---
 
-TODO: tuliskan 2-3 kalimat tentang tujuan aplikasi dan siapa penggunanya.
+## 📖 Tentang Proyek
 
-## Fitur
+**Horas Justitia** adalah aplikasi lintas platform yang dibangun dengan Flutter sebagai bagian dari Praktikum Pemrograman Mobile. Aplikasi ini menampilkan dan mengelola data admin serta pengguna Horas Advokat, terhubung ke Firebase dan layanan API, dan mendukung banyak bahasa.
 
-- Daftar admin dan halaman detail data
-- Manajemen data admin dan pengguna
-- Integrasi Firebase
-- Dukungan multi bahasa (l10n)
-- TODO: tambahkan fitur lain yang sudah jadi
+## ✨ Fitur
 
-## Teknologi
+- 📋 Daftar admin dengan tampilan tab
+- 🔍 Halaman detail data
+- 👤 Pengelolaan data admin dan pengguna
+- 🔥 Integrasi Firebase
+- 🌐 Konsumsi data dari REST API
+- 🌍 Dukungan multi bahasa (lokalisasi)
+- 💻 Berjalan di Android, iOS, Web, Windows, dan Linux
 
-| Komponen | Keterangan |
+## 🛠️ Teknologi
+
+| Kategori | Teknologi |
 |---|---|
 | Framework | Flutter |
 | Bahasa | Dart |
 | Backend | Firebase, REST API |
 | Lokalisasi | Flutter l10n (`.arb`) |
-| Platform | Android, iOS, Web, Windows, Linux |
+| IDE | Android Studio |
 
-## Struktur Folder
+## 📁 Struktur Folder
 
 ```
 horas_justitia/
-├── android/          # Konfigurasi platform Android
-├── ios/              # Konfigurasi platform iOS
-├── web/              # Konfigurasi platform Web
-├── windows/          # Konfigurasi platform Windows
-├── linux/            # Konfigurasi platform Linux
-├── test/             # Pengujian
+├── android/              # Konfigurasi Android
+├── ios/                  # Konfigurasi iOS
+├── web/                  # Konfigurasi Web
+├── windows/              # Konfigurasi Windows
+├── linux/                # Konfigurasi Linux
+├── test/                 # Pengujian
 ├── lib/
-│   ├── constant/     # Warna dan konfigurasi konstan
-│   ├── l10n/         # File terjemahan (app_en.arb, dst.)
-│   ├── models/       # Model data (admin, user)
-│   ├── screens/      # Tampilan (daftar admin, detail)
-│   ├── service/      # Layanan data (admin_service, api_service)
+│   ├── constant/         # Warna dan konfigurasi konstan
+│   ├── l10n/             # File terjemahan (.arb)
+│   ├── models/           # Model data (admin, user)
+│   ├── screens/          # Halaman aplikasi
+│   ├── service/          # Layanan data (admin, API)
 │   ├── firebase_options.dart
-│   └── main.dart     # Titik masuk aplikasi
+│   └── main.dart         # Titik masuk aplikasi
 ├── firebase.json
 ├── l10n.yaml
 └── pubspec.yaml
 ```
 
-## Prasyarat
+## ✅ Prasyarat
 
-- [Flutter SDK](https://docs.flutter.dev/get-started/install) (versi stabil terbaru)
-- Android Studio atau VS Code dengan plugin Flutter dan Dart
-- Akun Firebase (jika ingin memakai project Firebase sendiri)
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) versi stabil
+- Android Studio (dengan plugin Flutter dan Dart)
 - Git
 
-Cek instalasi dengan:
+Pastikan lingkungan siap dengan menjalankan:
 
 ```bash
 flutter doctor
 ```
 
-## Cara Menjalankan
+## 🚀 Cara Menjalankan
 
-1. Clone repository:
+**1. Clone repository**
 
-   ```bash
-   git clone https://github.com/Horas-Advokat/Horas-Justitia.git
-   cd Horas-Justitia
-   ```
+```bash
+git clone https://github.com/Horas-Advokat/Horas-Justitia.git
+cd Horas-Justitia
+```
 
-2. Pasang dependensi:
+**2. Pasang dependensi**
 
-   ```bash
-   flutter pub get
-   ```
+```bash
+flutter pub get
+```
 
-3. Generate file lokalisasi (jika diperlukan):
+**3. Generate file lokalisasi**
 
-   ```bash
-   flutter gen-l10n
-   ```
+```bash
+flutter gen-l10n
+```
 
-4. Jalankan aplikasi:
+**4. Jalankan aplikasi**
 
-   ```bash
-   flutter run
-   ```
+```bash
+flutter run
+```
 
-   Untuk memilih perangkat tertentu, misalnya Windows:
+Untuk memilih perangkat tertentu:
 
-   ```bash
-   flutter run -d windows
-   ```
+```bash
+flutter devices          # lihat daftar perangkat
+flutter run -d windows   # contoh: jalankan di Windows
+```
 
-## Konfigurasi Firebase
+## 🔥 Konfigurasi Firebase
 
-Proyek ini memakai `firebase_options.dart` hasil FlutterFire CLI. Untuk memakai project Firebase sendiri:
+Proyek ini memakai `lib/firebase_options.dart` yang dibuat oleh FlutterFire CLI. Untuk memakai project Firebase milikmu sendiri:
 
 ```bash
 dart pub global activate flutterfire_cli
 flutterfire configure
 ```
 
-Catatan: jangan menyimpan kunci rahasia atau kredensial pribadi di repository publik.
+> ⚠️ Jangan menyimpan kunci rahasia atau kredensial pribadi di repository publik.
 
-## Build
+## 📦 Build
 
 ```bash
-flutter build apk          # Android
-flutter build web          # Web
-flutter build windows      # Windows
+flutter build apk        # Android
+flutter build web        # Web
+flutter build windows    # Windows
 ```
 
-## Tim Pengembang
+## 👥 Tim Pengembang
 
-| Nama | Peran |
+| Nama | GitHub |
 |---|---|
-| Dwi Ahmad Maulana | Developer |
+| Dwi Ahmad Maulana | [@dwiahmad02](https://github.com/dwiahmad02) |
 
-TODO: tambahkan anggota kelompok lain beserta perannya.
+## 📄 Lisensi
 
-## Lisensi
-
-TODO: tentukan lisensi (misalnya MIT) atau tuliskan bahwa proyek ini dibuat untuk keperluan akademik.
+Proyek ini dibuat untuk keperluan akademik (Praktikum Pemrograman Mobile).
