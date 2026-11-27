@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "muhammad_riyan_hardiono_kelompok_6_kh001" "\0"
+            VALUE "FileDescription", "horas_justitia" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "muhammad_riyan_hardiono_kelompok_6_kh001" "\0"
+            VALUE "InternalName", "horas_justitia" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2026 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "muhammad_riyan_hardiono_kelompok_6_kh001.exe" "\0"
-            VALUE "ProductName", "muhammad_riyan_hardiono_kelompok_6_kh001" "\0"
+            VALUE "OriginalFilename", "horas_justitia.exe" "\0"
+            VALUE "ProductName", "horas_justitia" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
